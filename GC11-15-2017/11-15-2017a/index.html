@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="" type="text/css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+
+    <div ng-controller="ListControler as list">
+        <div ng-repeat="awesomeFood in list.food" hello-world></div>
+    </div>
+
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script src="./module.js"></script>
+<script src="./controller.js"></script>
+<script src="./hello-world.js"></script>
+<script src="./lunch-time.js"></script>

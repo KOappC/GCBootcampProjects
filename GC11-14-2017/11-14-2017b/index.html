@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="favBands" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./stylesheet.css" type="text/css" rel="stylesheet">
+    <title>11-14-2017b</title>
+</head>
+<body>
+    <div ng-controller="favBandsController as bands">
+        <input type="text" ng-model="bandNames" placeholder="search for artist">
+        <input type="text" ng-model="newBands" placeholder="add artists">
+        <button type="button" ng-click="bands.addBand(newBands)">add band</button>
+        <ul>Just some fav bands
+            <li ng-repeat="names in bands.namesOfBands | filter: bandNames | orderBy"> {{ names }}</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<!-- min jQuery CDN <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+<script src="./module.js"></script>
+<script src="./controller.js"></script>
+ 

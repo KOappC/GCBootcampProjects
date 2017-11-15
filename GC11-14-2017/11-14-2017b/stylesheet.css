@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+    background-color: pink;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 30%;
+    border: 2px solid Aliceblue;
+}
+
+ul {
+    font-size: 32px;
+    font-family: "Gloria Hallelujah", sans-serif;
+    padding: 10px;
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid Aliceblue;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Gloria Hallelujah", sans-serif;
+    text-align: center;
+}
+
+li {
+    font-size: 22px;
+    font-family: "Gloria Hallelujah", sans-serif;
+    text-align: center;
+    list-style: none;
+}

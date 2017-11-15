@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*  mobile first  */
+
+body {
+    margin: 0;
+}
+
+h4 {
+    margin: 10px;
+}
+
+nav {
+    font-size: 1.2em;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #551A8B;
+    color: rgba(255,255,255,0.8);
+    max-width: 300px;
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    h6 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .bar {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        max-width: 100%;
+        padding-right: 20px;
+        align-items: center;
+    }
+}
+
+
+
+/*  flex  */
+
+/*nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+h6 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #551A8B;
+    color: rgba(255,255,255,0.8);
+}*/
+
+/*  inline-block  */
+
+/*
+nav {
+    float: right;
+}
+
+h6 {
+    display: inline-block;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.bar {
+    display: inline-block;
+    background-color: #551A8B;
+    color: rgba(255,255,255,0.8);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+
+.bar h4 h6 {
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+}
+
+#logo {
+    width: 25%;
+    float: left;
+    margin: 20px;
+}*/

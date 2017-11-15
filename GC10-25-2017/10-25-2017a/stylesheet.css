@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    height: 200vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #E84442;;
+}
+
+div {
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    border: solid black 1px;
+}
+
+p {
+    bottom: 0;
+    right: 0;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
