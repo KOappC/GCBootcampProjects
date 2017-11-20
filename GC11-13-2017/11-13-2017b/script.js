@@ -6,7 +6,7 @@ $(document).ready(function() {
         var nameOfCity = $("#city").val();
         $.get("http://api.wunderground.com/api/3b57aebcf8eb6473/conditions/q/" + nameOfState + "/" + nameOfCity + ".json").done(function(response) {
             console.log(response);
-            $("body").append(response.
+            $("body").append(response);
         });
         $.get("http://api.wunderground.com/api/3b57aebcf8eb6473/satellite/q/" + nameOfState + "/" + nameOfCity + ".json").done(function(response) {
             $("body").append(response);
