@@ -1,0 +1,12 @@
+{
+  "name": "11-22-2017a",
+  "version": "1.0.0",
+  "description": "\"this is a demo of node for class\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "\"Kyle Apsey\"",
+  "license": "ISC"
+}
