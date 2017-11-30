@@ -1,3 +1,4 @@
+/*
 class Person {
     constructor(name) {
         this.name = name;
@@ -22,12 +23,12 @@ class Student extends Person {
 
 var kyle = new Student("Kyle");
 console.log(kyle);
+*/
 
 
 
 
 
-/*
 
 
 // written as a class...get it?...as a class, things about class?...
@@ -71,4 +72,3 @@ console.log(christianS);
 var kyle = new Student(true, "Kyle", 30, "Adidas", true, true);
 console.log(kyle);
 
-*/
